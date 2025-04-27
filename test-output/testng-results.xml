@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="0" failed="1" skipped="2">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-26T23:36:07 IST" name="Failed suite [Suite]" finished-at="2025-04-26T23:36:07 IST" duration-ms="202">
+    <groups>
+      <group name="Regression">
+        <method signature="TC001_AccountregistrationTest.verify_account_registration()[pri:0, instance:Testcases.TC001_AccountregistrationTest@4e50c791]" name="verify_account_registration" class="Testcases.TC001_AccountregistrationTest"/>
+        <method signature="TC002_Logintest.verifylogin()[pri:0, instance:Testcases.TC002_Logintest@5aebe890]" name="verifylogin" class="Testcases.TC002_Logintest"/>
+      </group> <!-- Regression -->
+      <group name="master">
+        <method signature="TC001_AccountregistrationTest.verify_account_registration()[pri:0, instance:Testcases.TC001_AccountregistrationTest@4e50c791]" name="verify_account_registration" class="Testcases.TC001_AccountregistrationTest"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2025-04-26T23:36:07 IST" name="Test(failed)" finished-at="2025-04-26T23:36:07 IST" duration-ms="202">
+      <class name="Testcases.TC001_AccountregistrationTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:Testcases.TC001_AccountregistrationTest@4e50c791]" started-at="2025-04-26T23:36:07 IST" name="setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1745690767185" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'Os' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\Admin\Desktop\pinnacle data22-04-25\eclipse-workspace\seleniumwebdriver\.settings\testngframework\test-output\testng-failed.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'Os' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\Admin\Desktop\pinnacle data22-04-25\eclipse-workspace\seleniumwebdriver\.settings\testngframework\test-output\testng-failed.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_account_registration()[pri:0, instance:Testcases.TC001_AccountregistrationTest@4e50c791]" started-at="2025-04-26T23:36:07 IST" name="verify_account_registration" finished-at="2025-04-26T23:36:07 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'Os' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\Admin\Desktop\pinnacle data22-04-25\eclipse-workspace\seleniumwebdriver\.settings\testngframework\test-output\testng-failed.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'Os' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\Admin\Desktop\pinnacle data22-04-25\eclipse-workspace\seleniumwebdriver\.settings\testngframework\test-output\testng-failed.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_account_registration -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.TC001_AccountregistrationTest@4e50c791]" started-at="2025-04-26T23:36:07 IST" name="teardown" finished-at="2025-04-26T23:36:07 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Testcases.TC001_AccountregistrationTest -->
+      <class name="Testcases.TC002_Logintest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:Testcases.TC002_Logintest@5aebe890]" started-at="2025-04-26T23:36:07 IST" name="setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1745690767285" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'Os' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\Admin\Desktop\pinnacle data22-04-25\eclipse-workspace\seleniumwebdriver\.settings\testngframework\test-output\testng-failed.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'Os' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\Admin\Desktop\pinnacle data22-04-25\eclipse-workspace\seleniumwebdriver\.settings\testngframework\test-output\testng-failed.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifylogin()[pri:0, instance:Testcases.TC002_Logintest@5aebe890]" started-at="2025-04-26T23:36:07 IST" name="verifylogin" finished-at="2025-04-26T23:36:07 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'Os' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\Admin\Desktop\pinnacle data22-04-25\eclipse-workspace\seleniumwebdriver\.settings\testngframework\test-output\testng-failed.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'Os' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\Admin\Desktop\pinnacle data22-04-25\eclipse-workspace\seleniumwebdriver\.settings\testngframework\test-output\testng-failed.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogin -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.TC002_Logintest@5aebe890]" started-at="2025-04-26T23:36:07 IST" name="teardown" finished-at="2025-04-26T23:36:07 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Testcases.TC002_Logintest -->
+      <class name="Testcases.TC003_Logindata">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:Testcases.TC003_Logindata@65d09a04]" started-at="2025-04-26T23:36:07 IST" name="setup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1745690767304" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'Os' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\Admin\Desktop\pinnacle data22-04-25\eclipse-workspace\seleniumwebdriver\.settings\testngframework\test-output\testng-failed.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'Os' is required by BeforeClass on method setup but has not been marked @Optional or defined
+in C:\Users\Admin\Desktop\pinnacle data22-04-25\eclipse-workspace\seleniumwebdriver\.settings\testngframework\test-output\testng-failed.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:264)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:352)
+at org.testng.internal.Parameters.createParameters(Parameters.java:690)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:163)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:313)
+at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verify_logindata(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:Testcases.TC003_Logindata@65d09a04]" started-at="2025-04-26T23:36:07 IST" name="verify_logindata" finished-at="2025-04-26T23:36:07 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Method public void Testcases.TC003_Logindata.verify_logindata(java.lang.String,java.lang.String,java.lang.String) requires a @DataProvider named : logindata in class org.testng.annotations.DataProvider]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Method public void Testcases.TC003_Logindata.verify_logindata(java.lang.String,java.lang.String,java.lang.String) requires a @DataProvider named : logindata in class org.testng.annotations.DataProvider
+at org.testng.internal.Parameters.findDataProvider(Parameters.java:532)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:769)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:734)
+at org.testng.internal.invokers.ParameterHandler.handleParameters(ParameterHandler.java:72)
+at org.testng.internal.invokers.ParameterHandler.createParameters(ParameterHandler.java:51)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:949)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_logindata -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Testcases.TC003_Logindata@65d09a04]" started-at="2025-04-26T23:36:07 IST" name="teardown" finished-at="2025-04-26T23:36:07 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Testcases.TC003_Logindata -->
+    </test> <!-- Test(failed) -->
+  </suite> <!-- Failed suite [Suite] -->
+</testng-results>

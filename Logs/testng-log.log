@@ -1,0 +1,10 @@
+2025-04-23 17:26:02 [main] INFO  Testcases.TC001_AccountregistrationTest - ****** starting TC001_Accountregsitration******
+2025-04-23 17:26:02 [main] INFO  Testcases.TC001_AccountregistrationTest - click on login my account
+2025-04-23 17:26:02 [main] INFO  Testcases.TC001_AccountregistrationTest - click on register link
+2025-04-23 17:26:02 [main] INFO  Testcases.TC001_AccountregistrationTest - providing coustmer details....
+2025-04-23 17:26:04 [main] INFO  Testcases.TC001_AccountregistrationTest - ******finished TC001_Accountregistration********** 
+2025-04-23 17:31:03 [main] INFO  Testcases.TC001_AccountregistrationTest - ****** starting TC001_Accountregsitration******
+2025-04-23 17:31:04 [main] INFO  Testcases.TC001_AccountregistrationTest - click on login my account
+2025-04-23 17:31:04 [main] INFO  Testcases.TC001_AccountregistrationTest - click on register link
+2025-04-23 17:31:04 [main] INFO  Testcases.TC001_AccountregistrationTest - providing coustmer details....
+2025-04-23 17:31:05 [main] INFO  Testcases.TC001_AccountregistrationTest - ******finished TC001_Accountregistration********** 
